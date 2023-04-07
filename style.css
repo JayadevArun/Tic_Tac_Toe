@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
 .container{
     display: flex;
     flex-direction: column;
@@ -6,14 +8,15 @@
     padding-top: 100px;
 }
 
-.button{
-    border: 2px solid rgb(8, 0, 0);
-    border-radius: 0px;
+.XO{
     height: 60px;
     width: 60px;
+    
 }
 
 .head{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(169, 60, 44);
     text-align: center;
     padding-top: 30px;
     font-size: 50px;
@@ -24,4 +27,14 @@
     margin-top: 30px;
     width: 80px;
     height: 50px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    
 }
