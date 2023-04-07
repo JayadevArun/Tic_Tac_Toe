@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,34 @@
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img class="image" src="Tic_tac_toe.jpg.png">
-    <h3 class="head">Tic Tac Toe</h3>
+
     <div class="container">
+        <img class="image" src="Tic_tac_toe.png">
+        <h3 class="head">Tic Tac Toe</h3>
         <div class="row">
-            <button id="1" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="2" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="3" onclick=clickbutton(event) class="XO">&nbsp;</button>
+            <button id="1" onclick=clickbutton(event) class="XO b1">&nbsp;</button>
+            <button id="2" onclick=clickbutton(event) class="XO b2">&nbsp;</button>
+            <button id="3" onclick=clickbutton(event) class="XO b3">&nbsp;</button>
         </div>
         <div class="row">
-            <button id="4" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="5" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="6" onclick=clickbutton(event) class="XO">&nbsp;</button>
+            <button id="4" onclick=clickbutton(event) class="XO b4">&nbsp;</button>
+            <button id="5" onclick=clickbutton(event) class="XO b5">&nbsp;</button>
+            <button id="6" onclick=clickbutton(event) class="XO b6">&nbsp;</button>
         </div>
         <div class="row">
-            <button id="7" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="8" onclick=clickbutton(event) class="XO">&nbsp;</button>
-            <button id="9" onclick=clickbutton(event) class="XO">&nbsp;</button>
+            <button id="7" onclick=clickbutton(event) class="XO b7">&nbsp;</button>
+            <button id="8" onclick=clickbutton(event) class="XO b8">&nbsp;</button>
+            <button id="9" onclick=clickbutton(event) class="XO b9">&nbsp;</button>
         </div>
         <div>
             <button onclick=clickreset(event) class="reset">Reset</button>
         </div>
 
-        <h1 id="message">&nbsp;</h1>
+        <h1 class="message" id="message">&nbsp;</h1>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

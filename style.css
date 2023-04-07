@@ -1,40 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
 }
 
-.XO{
-    height: 60px;
-    width: 60px;
-    
-}
-
-.head{
-    font-family: 'IBM Plex Mono', monospace;
-    color: rgb(169, 60, 44);
-    text-align: center;
-    padding-top: 30px;
+.XO {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(237, 111, 8);
+    border-radius: 5px;
+    margin: -5px;
     font-size: 50px;
 }
 
-.reset{
-    text-align: center;
-    margin-top: 30px;
-    width: 80px;
-    height: 50px;
+.b1 {
+    border-left: 0px;
+    border-top: 0px;
 }
 
-body{
+.b2 {
+    border-top: 0px;
+}
+
+.b3 {
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.b4 {
+    border-left: 0px;
+}
+
+.b6 {
+    border-right: 0px;
+}
+
+.b7 {
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.b8 {
+    border-bottom: 0px;
+}
+
+.b9 {
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.head {
+    font-family: 'Delicious Handrawn', cursive;
+    color: rgb(169, 60, 44);
+    text-align: center;
+    font-size: 60px;
+    margin-top: -10px;
+}
+
+.reset {
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    color: brown;
+    text-align: center;
+    margin-top: 50px;
+    width: 80px;
+    height: 70px;
+    border: 5px solid burlywood;
+    border-radius: 10px;
+}
+
+.reset:hover {
+    background-color: rgb(252, 232, 145);
+}
+
+body {
     background-color: antiquewhite;
 }
 
-.image{
+.image {
     height: 100px;
     width: 100px;
-    
+    margin-top: 10px;
+}
+
+.message {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+    color: rgb(181, 120, 41);
 }
