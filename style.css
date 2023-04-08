@@ -16,6 +16,7 @@
     border-radius: 5px;
     margin: -5px;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .b1 {
@@ -73,6 +74,7 @@
     height: 70px;
     border: 5px solid burlywood;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .reset:hover {
